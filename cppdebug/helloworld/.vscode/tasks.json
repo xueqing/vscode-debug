@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build hello wolrd",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "-std=c++11",
+        "-o",
+        "${workspaceRoot}/helloworld.out",
+        "helloworld.cpp"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
