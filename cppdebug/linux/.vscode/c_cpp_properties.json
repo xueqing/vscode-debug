@@ -2,19 +2,14 @@
     "configurations": [
         {
             "name": "Linux",
-            "includePath": [],
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
             "defines": [],
-            "compilerPath": "/usr/bin/g++",
-            "cStandard": "c11",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "gcc-x64",
-            "browse": {
-              "path": [
-                "${workspaceFolder}"
-              ],
-              "limitSymbolsToIncludedHeaders": true,
-              "databaseFilename": ""
-            }
+            "intelliSenseMode": "gcc-x64"
         }
     ],
     "version": 4
