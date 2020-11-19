@@ -11,5 +11,4 @@
 
 ## 参考
 
-- <https://code.visualstudio.com/docs/cpp/config-wsl>
-- <https://74th.github.io/vscode-debug-specs/cpp/>
+- <https://code.visualstudio.com/docs/cpp/config-linux>
