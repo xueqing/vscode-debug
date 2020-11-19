@@ -185,7 +185,7 @@ VSCode 创建一个 `launch.json` 文件，在编辑器打开此文件，构建�
 }
 ```
 
-- `program` 指定要调试的程序。这里设置为活跃的文件夹 `${fileDirname}` 和活跃的不带后缀的文件名 `${fileBasenameNoExtension}`，即如果 `helloworld.cpp` 是活跃文件，那么该值就是 `helloworld` 
+- `program` 指定要调试的程序。这里设置为活跃的文件夹 `${fileDirname}` 和活跃的不带后缀的文件名 `${fileBasenameNoExtension}`，即如果 `helloworld.cpp` 是活跃文件，那么该值就是 `helloworld`
 - `stopAtEntry` 为 `false` 表示 C++ 插件不会再源码中添加任何断点，这是默认的
 
 ### 开始一个调试会话
