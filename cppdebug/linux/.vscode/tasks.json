@@ -5,7 +5,13 @@
       "type": "cppbuild",
       "label": "build hello wolrd", //"g++ build active file"
       "command": "/usr/bin/g++",
-      "args": ["-std=c++11", "-g", "${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}"], //add -std=c++11
+      "args": [
+          "-std=c++11",
+          "-g",
+          "${file}",
+          "-o",
+          "${fileDirname}/${fileBasenameNoExtension}" //add -std=c++11
+      ],
       "options": {
         "cwd": "/usr/bin"
       },
